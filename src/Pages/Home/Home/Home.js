@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div className='px-24 py-10'>
+        <div>
             <Banner></Banner>
             <About></About>
         </div>
