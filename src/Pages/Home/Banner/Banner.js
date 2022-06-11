@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import banner from '../../../images/banner.jpg';
+import resume from '../../../files/Resume-Adrita debnath.pdf';
 
 const Banner = () => {
     return (
@@ -10,7 +11,7 @@ const Banner = () => {
                 <div className='text-white text-start md:p-0 pl-8 pt-5 max-w-lg'>
                     <h1 className="text-5xl font-bold">Hi! I'm Adrita!</h1>
                     <p className="py-6 text-2xl">A Front-End Developer who love to use React and Javascript.</p>
-                    <Link to='/resume' className="btn btn-secondary btn-outline mt-8">Download Resume</Link>
+                    <Link to={resume} target="_blank" download className="btn btn-secondary btn-outline mt-8">Download Resume</Link>
                 </div>
             </div>
         </div>

@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home/Home';
 import ProjectDetail1 from './Pages/Home/Projects/ProjectDetails/ProjectDetail1/ProjectDetail1';
 import ProjectDetail2 from './Pages/Home/Projects/ProjectDetails/ProjectDetail2/ProjectDetail2';
 import ProjectDetail3 from './Pages/Home/Projects/ProjectDetails/ProjectDetail3/ProjectDetail3';
+import Resume from './Pages/Resume/Resume';
 import Navbar from './Pages/Shared/Navbar';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path='/detail3' element={<ProjectDetail3></ProjectDetail3>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
-        <Route path='/resume' element={<Home></Home>}></Route>
+        <Route path='/resume' element={<Resume></Resume>}></Route>
       </Routes>
     </div>
   );

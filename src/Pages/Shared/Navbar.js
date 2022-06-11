@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../files/Resume-Adrita debnath.pdf';
 
 const Navbar = () => {
     const menuItems = <>
         <li><Link to='/home#projects'>Projects</Link></li>
         <li><Link to='/blogs'>Blogs</Link></li>
-        <li><Link to='/resume'>Resume</Link></li>
+        <li><Link to={resume} target="_blank" download>Download Resume</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
     </>
 
